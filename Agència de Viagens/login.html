@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vilella's Viagens</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="c:\Users\leona\Downloads\Agència de Viagens\imagens\V.png" type="image/x-icon">
+    </head>
+
+<body>
+    <header>
+        <h1>Login - VV</h1>
+    </header>
+
+    <main>
+        <section id="login">
+            <h2>Faça seu login</h2>
+            <form id="loginForm">
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Entrar</button>
+            </form>
+        </section>
+    </main>
+
+    <script>
+        document.getElementById('loginForm').onsubmit = function(event) {
+            event.preventDefault();  
+            
+            window.location.href = "feito.html";
+        }
+    </script>
+
+ <link rel="stylesheet" href="style3.css"><a href="index.html" class="botao">Voltar para o site</a>
+ 
+      <footer>
+        <p>&copy; 2024 Vilella's Viagens - Feito por Leonardo e Giullia</p>
+    </footer>
+</body>
+</html>
+
+
